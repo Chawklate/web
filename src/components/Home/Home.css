@@ -1,0 +1,88 @@
+.welcome {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome__container {
+  width: 90%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile {
+  width: 50%;
+  height: 22vh !important;
+  display: none;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: top;
+}
+
+.welcome__text {
+  margin-top: 20px;
+}
+
+.username {
+  color: #aaa;
+  padding: 10px 0;
+}
+
+.social__media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.discord {
+  position: relative;
+  cursor: pointer;
+}
+
+.discord:hover .discord__text {
+  opacity: 1;
+}
+
+.discord__text {
+  position: absolute;
+  padding: 5px;
+  bottom: -38px;
+  left: -38px;
+  background-color: #faeee7;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 1030px) {
+  .profile {
+    width: 30%;
+    height: 45vh;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .profile {
+    width: 50%;
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+    background-position: center;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

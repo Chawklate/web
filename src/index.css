@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #33272a;
+}
+
+b {
+  color: #33272a;
+}
+
+p {
+  color: #594a4e;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #faeee7;
+}
+
+/* Size */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ebebeb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff5d83;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8ba7;
+}
